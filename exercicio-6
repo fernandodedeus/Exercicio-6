@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    Scanner console = new Scanner(System.in);
+
+       System.out.println("Escreva o valor do raio");
+       
+
+       double raio = console.nextFloat();
+       double area = Math.PI * raio * raio;
+
+       System.out.println("O valor da area é " + area);
+       
+          }
+        }
